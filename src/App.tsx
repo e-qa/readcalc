@@ -11,7 +11,9 @@ const App = () => {
   }>({});
 
   function calculateTotalBooks() {
-    const { dailyTime, durationMonths, readingSpeed } = selectedValues;
+    const dailyTime = Number(selectedValues.dailyTime);
+    const durationMonths = Number(selectedValues.durationMonths);
+    const readingSpeed = Number(selectedValues.readingSpeed);
     const averageWordsPerBook = 80000;
     const dailyWords = dailyTime * readingSpeed;
     const totalWords = dailyWords * 30 * durationMonths;
