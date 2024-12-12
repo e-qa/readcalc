@@ -12,5 +12,5 @@ ReadCalc, oxuma sürətinizə və gündəlik ayırdığınız vaxta əsasən 1 a
 
 1. Reponu klonlayın:
    ```bash
-   git clone https://github.com/sizin-repo/readcalc.git
+   git clone https://github.com/e-qa/readcalc.git
    ```
